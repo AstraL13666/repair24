@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АО НИЦЭП</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="header-nav">
+                    <a href="#">О компании</a>
+                    <a href="#">Вакансии</a>
+                    <a href="#">Доставка</a>
+                    <a href="#">Оплата</a>
+                    <a href="#">Новости</a>
+                    <a href="#">Партнерская сеть</a>
+                    <a href="#">Обслуживание бизнеса</a>
+                    <a href="#contacts">Контакты</a>
+                </div>
+
+                <div class="header-setting">
+                    <div class="header-login">
+                        <a href="#account">
+                            <svg class="header-svg">
+                                <use href="assets/svg/sprite.svg#account"></use>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="header-theme">
+                        <svg class="header-svg" id="themeIcon" onclick="toggleTheme()">
+                            <use href="assets/svg/sprite.svg#theme-sun"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav id="nav-bar" class="nav-bar">
+        <img class="nav-bar__logo" src="assets/img/logo.png">
+
+        <div class="nav-bar__nav">
+            <a href="#catalog">Каталог</a>
+            <a href="#capabilities">Возможности</a>
+            <a href="#case">Кейсы</a>
+            <a href="#activity">Деятельность</a>
+            <a href="#services">Выбор услуги</a>
+            <a href="#contacts">Контакты</a>
+        </div>
+
+        <svg class="header-svg" id="themeIconUse" onclick="toggleTheme()">
+            <use href="assets/svg/sprite.svg#theme-sun"></use>
+        </svg>
+    </nav>
+
+    <section class="section">
+        <div class="container top-info">
+            <div class="top-info__logo">
+                <img class="logo-img" src="assets/img/logo.png">
+                <h3 class="logo-title">Научно-исследовательский центр<br>электроники и приборостроения</h3>
+            </div>
+
+            <div class="top-info__contact">
+                <svg class="header-svg">
+                    <use href="assets/svg/sprite.svg#incoming-call"></use>
+                </svg>
+
+                <svg class="header-svg">
+                    <use href="assets/svg/sprite.svg#work-time"></use>
+                </svg>
+
+                <svg class="header-svg">
+                    <use href="assets/svg/sprite.svg#map"></use>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="catalog">
+        <div class="container catalog-slide">
+            <nav class="catalog-nav">
+                <h2 class="catalog-nav-title">
+                    <svg class="header-svg">
+                        <use href="assets/svg/sprite.svg#catalog"></use>
+                    </svg>Каталог услуг
+                </h2>
+
+                <ul class="nav">
+                    <li>
+                        <a href="#">
+                            <svg class="header-svg">
+                                <use href="assets/svg/sprite.svg#rss"></use>
+                            </svg>Ремонт систем оповещения
+                        </a>
+                        <ul>
+                            <li><a href="#">APART</a></li>
+                            <li><a href="#">ITC</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <svg class="header-svg">
+                                <use href="assets/svg/sprite.svg#notebook"></use>
+                            </svg>Ремонт ноутбуков
+                        </a>
+                        <ul>
+                            <li><a href="#">Acer</a></li>
+                            <li><a href="#">Apple</a></li>
+                            <li><a href="#">ASUS</a></li>
+                            <li><a href="#">Dell</a></li>
+                            <li><a href="#">HP</a></li>
+                            <li><a href="#">Lenovo</a></li>
+                            <li><a href="#">MSI</a></li>
+                            <li><a href="#">Samsung</a></li>
+                            <li><a href="#">Sony</a></li>
+                            <li><a href="#">Toshiba</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <svg class="header-svg">
+                                <use href="assets/svg/sprite.svg#mono-block"></use>
+                            </svg>Ремонт моноблоков
+                        </a>
+                        <ul>
+                            <li><a href="#">Acer</a></li>
+                            <li><a href="#">Apple</a></li>
+                            <li><a href="#">ASUS</a></li>
+                            <li><a href="#">Dell</a></li>
+                            <li><a href="#">HP</a></li>
+                            <li><a href="#">Lenovo</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <svg class="header-svg">
+                                <use href="assets/svg/sprite.svg#video-card"></use>
+                            </svg>Ремонт видеокарт
+                        </a>
+                        <ul>
+                            <li><a href="#">ASUS</a></li>
+                            <li><a href="#">GIGABYTE</a></li>
+                            <li><a href="#">MSI</a></li>
+                            <li><a href="#">Palit</a></li>
+                            <li><a href="#">Sapphire</a></li>
+                            <li><a href="#">ZOTAC</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <svg class="header-svg">
+                                <use href="assets/svg/sprite.svg#controller"></use>
+                            </svg>Ремонт контроллеров
+                        </a>
+                        <ul>
+                            <li><a href="#">Adaptec</a></li>
+                            <li><a href="#">Espada</a></li>
+                            <li><a href="#">HighPoint</a></li>
+                            <li><a href="#">Intel</a></li>
+                            <li><a href="#">LSI</a></li>
+                            <li><a href="#">STLab</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <svg class="header-svg">
+                                <use href="assets/svg/sprite.svg#motherboard"></use>
+                            </svg>Ремонт мат. плат
+                        </a>
+                        <ul>
+                            <li><a href="#">ASRock</a></li>
+                            <li><a href="#">ASUS</a></li>
+                            <li><a href="#">GIGABYTE</a></li>
+                            <li><a href="#">INTEL</a></li>
+                            <li><a href="#">MSI</a></li>
+                            <li><a href="#">SuperMicro</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <svg class="header-svg">
+                                <use href="assets/svg/sprite.svg#monitor"></use>
+                            </svg>Ремонт мониторов
+                        </a>
+                        <ul>
+                            <li><a href="#">Acer</a></li>
+                            <li><a href="#">AOC</a></li>
+                            <li><a href="#">Aquarius</a></li>
+                            <li><a href="#">ASUS</a></li>
+                            <li><a href="#">BELINEA</a></li>
+                            <li><a href="#">BenQ</a></li>
+                            <li><a href="#">DELL</a></li>
+                            <li><a href="#">Elo</a></li>
+                            <li><a href="#">Fujitsu</a></li>
+                            <li><a href="#">HANNS.G</a></li>
+                            <li><a href="#">HP</a></li>
+                            <li><a href="#">IIYAMA</a></li>
+                            <li><a href="#">Lenovo</a></li>
+                            <li><a href="#">LG</a></li>
+                            <li><a href="#">NEC</a></li>
+                            <li><a href="#">Neovo</a></li>
+                            <li><a href="#">Pelco</a></li>
+                            <li><a href="#">Philips</a></li>
+                            <li><a href="#">PROVIEW</a></li>
+                            <li><a href="#">RoverScan</a></li>
+                            <li><a href="#">Samsung</a></li>
+                            <li><a href="#">Smartec</a></li>
+                            <li><a href="#">Sony</a></li>
+                            <li><a href="#">ViewSonic</a></li>
+                            <li><a href="#">XEROX</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <svg class="header-svg">
+                                <use href="assets/svg/sprite.svg#network-equipment"></use>
+                            </svg>Ремонт сетевого оборудования
+                        </a>
+                        <ul>
+                            <li><a href="#">MAYAK</a></li>
+                            <li><a href="#">Asus</a></li>
+                            <li><a href="#">AVAYA</a></li>
+                            <li><a href="#">CISCO</a></li>
+                            <li><a href="#">D-Link</a></li>
+                            <li><a href="#">HP</a></li>
+                            <li><a href="#">HUAWEI</a></li>
+                            <li><a href="#">LigoWave</a></li>
+                            <li><a href="#">Linksys</a></li>
+                            <li><a href="#">Mikrotik</a></li>
+                            <li><a href="#">Motorola</a></li>
+                            <li><a href="#">Netgear</a></li>
+                            <li><a href="#">TENDA</a></li>
+                            <li><a href="#">TP-Link</a></li>
+                            <li><a href="#">Trendnet</a></li>
+                            <li><a href="#">UBIQUITI</a></li>
+                            <li><a href="#">UPVEL</a></li>
+                            <li><a href="#">Zyxel</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <svg class="header-svg">
+                                <use href="assets/svg/sprite.svg#ibp"></use>
+                            </svg>Ремонт ИПБ
+                        </a>
+                        <ul>
+                            <li><a href="#">APC</a></li>
+                            <li><a href="#">CyberPower</a></li>
+                            <li><a href="#">Eaton</a></li>
+                            <li><a href="#">Exegate</a></li>
+                            <li><a href="#">FSP</a></li>
+                            <li><a href="#">Ippon</a></li>
+                            <li><a href="#">PowerCom</a></li>
+                            <li><a href="#">PowerMan</a></li>
+                            <li><a href="#">SVEN</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <svg class="header-svg">
+                                <use href="assets/svg/sprite.svg#power-unit"></use>
+                            </svg>Ремонт блоков питания
+                        </a>
+                        <ul>
+                            <li><a href="#">Ablecom</a></li>
+                            <li><a href="#">Aerocool</a></li>
+                            <li><a href="#">Chieftec</a></li>
+                            <li><a href="#">Cooler Master</a></li>
+                            <li><a href="#">Corsair</a></li>
+                            <li><a href="#">DELTA Electronics</a></li>
+                            <li><a href="#">Emacs</a></li>
+                            <li><a href="#">Exegate</a></li>
+                            <li><a href="#">Fractal Design</a></li>
+                            <li><a href="#">FSP</a></li>
+                            <li><a href="#">GIGABYTE</a></li>
+                            <li><a href="#">HPE</a></li>
+                            <li><a href="#">INWIN</a></li>
+                            <li><a href="#">OCZ</a></li>
+                            <li><a href="#">Power-One</a></li>
+                            <li><a href="#">SuperMicro</a></li>
+                            <li><a href="#">Thermaltake</a></li>
+                            <li><a href="#">Zalman</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <svg class="header-svg">
+                                <use href="assets/svg/sprite.svg#stab"></use>
+                            </svg>Ремонт стабильзаторов
+                        </a>
+                        <ul>
+                            <li><a href="#">EXEGATE</a></li>
+                            <li><a href="#">HUTER</a></li>
+                            <li><a href="#">Lider</a></li>
+                            <li><a href="#">PowerMan</a></li>
+                            <li><a href="#">REXANT</a></li>
+                            <li><a href="#">RUCELF</a></li>
+                            <li><a href="#">ВОЛЬТ Engineering</a></li>
+                            <li><a href="#">ЗУБР</a></li>
+                            <li><a href="#">РЕСАНТА</a></li>
+                            <li><a href="#">Штиль</a></li>
+                            <li><a href="#">Энергия</a></li>
+                            <li><a href="#">Энерготех</a></li>
+                            <li><a href="#">ЭРА</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <svg class="header-svg">
+                                <use href="assets/svg/sprite.svg#radio-station"></use>
+                            </svg>Ремонт радиостанций
+                        </a>
+                        <ul>
+                            <li><a href="#">Abell</a></li>
+                            <li><a href="#">AjetRays</a></li>
+                            <li><a href="#">Alan</a></li>
+                            <li><a href="#">Albrecht</a></li>
+                            <li><a href="#">Alinco</a></li>
+                            <li><a href="#">Comrade</a></li>
+                            <li><a href="#">Hytera</a></li>
+                            <li><a href="#">ICOM</a></li>
+                            <li><a href="#">Kenwood</a></li>
+                            <li><a href="#">MegaJet</a></li>
+                            <li><a href="#">Midland</a></li>
+                            <li><a href="#">Motorola</a></li>
+                            <li><a href="#">Optim</a></li>
+                            <li><a href="#">President</a></li>
+                            <li><a href="#">Roger</a></li>
+                            <li><a href="#">Turbosky</a></li>
+                            <li><a href="#">Vector</a></li>
+                            <li><a href="#">Vertex Standard</a></li>
+                            <li><a href="#">Wouxun</a></li>
+                            <li><a href="#">Yaesu</a></li>
+                            <li><a href="#">Аргут</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <svg class="header-svg">
+                                <use href="assets/svg/sprite.svg#printer"></use>
+                            </svg>Ремонт принтеров и МФУ
+                        </a>
+                        <ul>
+                            <li><a href="#">Canon</a></li>
+                            <li><a href="#">Epson</a></li>
+                            <li><a href="#">HP</a></li>
+                            <li><a href="#">Kyocera</a></li>
+                            <li><a href="#">Panasonic</a></li>
+                            <li><a href="#">Ricoh</a></li>
+                            <li><a href="#">Samsung</a></li>
+                            <li><a href="#">Xerox</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <svg class="header-svg">
+                                <use href="assets/svg/sprite.svg#data-recovery"></use>
+                            </svg>Восстановление данных
+                        </a>
+                        <ul>
+                            <li><a href="#">Crucial</a></li>
+                            <li><a href="#">Hitachi</a></li>
+                            <li><a href="#">Intel</a></li>
+                            <li><a href="#">iStick</a></li>
+                            <li><a href="#">Kingston</a></li>
+                            <li><a href="#">Leef</a></li>
+                            <li><a href="#">Nexport</a></li>
+                            <li><a href="#">OCZ</a></li>
+                            <li><a href="#">Plextor</a></li>
+                            <li><a href="#">Samsung</a></li>
+                            <li><a href="#">SanDisk</a></li>
+                            <li><a href="#">Seagate</a></li>
+                            <li><a href="#">Silicon Power</a></li>
+                            <li><a href="#">Smart Buy</a></li>
+                            <li><a href="#">Toshiba</a></li>
+                            <li><a href="#">Transcend</a></li>
+                            <li><a href="#">Verbatim</a></li>
+                            <li><a href="#">Western Digital</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <svg class="header-svg">
+                                <use href="assets/svg/sprite.svg#e-man"></use>
+                            </svg>Производство электроники
+                        </a>
+                        <ul>
+                            <li><a href="#">Разработка РЭА</a></li>
+                            <li><a href="#">Изготовление печатных плат</a></li>
+                            <li><a href="#">Поставка комплектующих</a></li>
+                            <li><a href="#">Монтаж печатных плат</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="right-column">
+                <div class="slider">
+                    <div class="slider-content" id="sliderContent">
+                        <div class="slider-item">
+                            <img src="assets/img/slider-content-1.png">
+                            <div class="slider-caption">Контрактное производство радиоэлектронной аппаратуры</div>
+                        </div>
+
+                        <div class="slider-item">
+                            <img src="assets/img/slider-content-2.png">
+                            <div class="slider-caption">Разработка ПО и прошивок для серверного, и сетевого оборудования
+                            </div>
+                        </div>
+
+                        <div class="slider-item">
+                            <img src="assets/img/slider-content-3.png">
+                            <div class="slider-caption">Максимально быстрая доставка</div>
+                        </div>
+
+                        <div class="slider-item">
+                            <img src="assets/img/slider-content-4.png">
+                            <div class="slider-caption">Обслуживание корпоротивного сегмента</div>
+                        </div>
+
+                        <div class="slider-item">
+                            <img src="assets/img/slider-content-5.png">
+                            <div class="slider-caption">Запчасти напрямую от производителя</div>
+                        </div>
+
+                        <div class="slider-item">
+                            <img src="assets/img/slider-content-6.png">
+                            <div class="slider-caption">Поднимаем бизнес на новый уровень</div>
+                        </div>
+                    </div>
+
+                    <div class="slider-nav" id="sliderNav">
+                        <div class="nav-btn prev">
+                            <svg class="header-svg">
+                                <use href="assets/svg/sprite.svg#arrow-left"></use>
+                            </svg>
+                        </div>
+
+                        <div class="nav-btn next">
+                            <svg class="header-svg">
+                                <use href="assets/svg/sprite.svg#arrow-right"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cards-grid cards-advantages">
+                    <div class="card-advantage">
+                        <div>
+                            <svg class="header-svg">
+                                <use href="assets/svg/sprite.svg#shield"></use>
+                            </svg>
+                        </div>
+                        <h3>ОФИЦИАЛЬНАЯ ГАРАНТИЯ ОТ 6 МЕС</h3>
+                    </div>
+
+                    <div class="card-advantage">
+                        <div>
+                            <svg class="header-svg">
+                                <use href="assets/svg/sprite.svg#rub"></use>
+                            </svg>
+                        </div>
+                        <h3>ЛЮБЫЕ ФОРМЫ<br>ОПЛАТЫ</h3>
+                    </div>
+
+                    <div class="card-advantage">
+                        <div>
+                            <svg class="header-svg">
+                                <use href="assets/svg/sprite.svg#map-1"></use>
+                            </svg>
+                        </div>
+                        <h3>РАБОТАЕМ ПО ВСЕЙ РОССИИ И СНГ</h3>
+                    </div>
+
+                    <div class="card-advantage">
+                        <div>
+                            <svg class="header-svg">
+                                <use href="assets/svg/sprite.svg#web"></use>
+                            </svg>
+                        </div>
+                        <h3>ПАРТНЕРСКАЯ СЕТЬ ПО ВСЕЙ РОССИИ И СНГ</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="capabilities">
+        <div class="container cap-equip">
+            <div class="capabilities">
+                <h2 class="section-title">Наши возможности</h2>
+                <div class="cards-grid cards-grid-capabilities">
+                    <div class="card">
+                        <h4>Разработка радиоэлектроники любой сложности</h4>
+                        <p>импульсные блоки питания;<br>аппаратура различного назначения на базе микроконтроллеров
+                            Atmel, Microchip, STMicroelectronics и другие; цифровая и аналоговая техника;</p>
+                    </div>
+
+                    <div class="card">
+                        <h4>Ремонт серверного оборудования и операторского оборудования</h4>
+                        <p>CISCO, Brocade, HP, Juniper, D-Link Mikrotik, Ubiquiti и многое другое</p>
+                    </div>
+
+                    <div class="card">
+                        <h4>Ремонт</h4>
+                        <p>ноутбуков, ремонт компьютеров, ремонт материнских плат,<br>видеокарт, звуковых карт,
+                            различных контроллеров,<br>плат промышленной электроники</p>
+                    </div>
+
+                    <div class="card">
+                        <h4>Ремонт импульсной техники</h4>
+                        <p>блоков питания для компьютеров и серверов, блоков питания периферийного оборудования</p>
+                    </div>
+
+                    <div class="card">
+                        <h4>Ремонт ИБП на компонентном уровне</h4>
+                        <p>APC, Powerman, Powercom, Ippon, Eaton, CyberPower и многое другое</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="equipment">
+                <h2 class="section-title">Наше оборудование</h2>
+                <div class="gallery">
+                    <figure class="gallery-item">
+                        <img src="assets/img/capabilities-1.png">
+                        <figcaption class="gallery-caption">Тут какое-то описание</figcaption>
+                    </figure>
+
+                    <figure class="gallery-item">
+                        <img src="assets/img/capabilities-2.png">
+                        <figcaption class="gallery-caption">Тут какое-то описание</figcaption>
+                    </figure>
+
+                    <figure class="gallery-item">
+                        <img src="assets/img/capabilities-3.png">
+                        <figcaption class="gallery-caption">Тут какое-то описание</figcaption>
+                    </figure>
+
+                    <figure class="gallery-item">
+                        <img src="assets/img/capabilities-4.png">
+                        <figcaption class="gallery-caption">Тут какое-то описание</figcaption>
+                    </figure>
+
+                    <figure class="gallery-item">
+                        <img src="assets/img/capabilities-5.png">
+                        <figcaption class="gallery-caption">Тут какое-то описание</figcaption>
+                    </figure>
+
+                    <figure class="gallery-item">
+                        <img src="assets/img/capabilities-6.png">
+                        <figcaption class="gallery-caption">Тут какое-то описание</figcaption>
+                    </figure>
+
+                    <figure class="gallery-item">
+                        <img src="assets/img/capabilities-7.png">
+                        <figcaption class="gallery-caption">Тут какое-то описание</figcaption>
+                    </figure>
+
+                    <figure class="gallery-item">
+                        <img src="assets/img/capabilities-8.png">
+                        <figcaption class="gallery-caption">Тут какое-то описание</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="case">
+        <div class="container">
+            <h2 class="section-title">Наши кейсы</h2>
+            <div class="cases__grid">
+                <article class="case-card">
+                    <img class="case-card__img" src="assets/img/case-1.png" alt="Кейс 1">
+                    <div class="case-card__overlay">
+                        <p class="case-card__caption">Поставка и обслуживание дисковых массивов</p>
+                    </div>
+                </article>
+
+                <article class="case-card">
+                    <img class="case-card__img" src="assets/img/case-2.png" alt="Кейс 2">
+                    <div class="case-card__overlay">
+                        <p class="case-card__caption">Coral Travel</p>
+                    </div>
+                </article>
+
+                <article class="case-card">
+                    <img class="case-card__img" src="assets/img/case-3.png" alt="Кейс 3">
+                    <div class="case-card__overlay">
+                        <p class="case-card__caption">ФГУП "База снабжения МВД РФ"</p>
+                    </div>
+                </article>
+
+                <article class="case-card">
+                    <img class="case-card__img" src="assets/img/case-4.png" alt="Кейс 4">
+                    <div class="case-card__overlay">
+                        <p class="case-card__caption">АО "СвязьТрансНефть"</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="activity">
+        <div class="container">
+            <h2 class="section-title">Наша деятельность</h2>
+            <ul class="activity-list">
+                <li>
+                    <svg>
+                        <use href="assets/svg/sprite.svg#notebook"></use>
+                    </svg>Ремонт ноутбуков
+                </li>
+
+                <li>
+                    <svg>
+                        <use href="assets/svg/sprite.svg#pc"></use>
+                    </svg>Ремонт компьютеров
+                </li>
+
+                <li>
+                    <svg>
+                        <use href="assets/svg/sprite.svg#monitor"></use>
+                    </svg>Ремонт мониторов
+                </li>
+
+                <li>
+                    <svg>
+                        <use href="assets/svg/sprite.svg#mono-block"></use>
+                    </svg>Ремонт моноблоков
+                </li>
+
+                <li>
+                    <svg>
+                        <use href="assets/svg/sprite.svg#server"></use>
+                    </svg>Ремонт серверов
+                </li>
+
+                <li>
+                    <svg>
+                        <use href="assets/svg/sprite.svg#printer"></use>
+                    </svg>Ремонт принтеров и МФУ
+                </li>
+
+                <li>
+                    <svg>
+                        <use href="assets/svg/sprite.svg#power-unit"></use>
+                    </svg>Ремонт блоков питания
+                </li>
+
+                <li>
+                    <svg>
+                        <use href="assets/svg/sprite.svg#ibp"></use>
+                    </svg>Ремонт ИПБ
+                </li>
+
+                <li>
+                    <svg>
+                        <use href="assets/svg/sprite.svg#rie"></use>
+                    </svg>Ремонт промышленной электроники
+                </li>
+
+                <li>
+                    <svg>
+                        <use href="assets/svg/sprite.svg#motherboard"></use>
+                    </svg>Ремонт мат. плат
+                </li>
+
+                <li>
+                    <svg>
+                        <use href="assets/svg/sprite.svg#video-card"></use>
+                    </svg>Ремонт видеокарт
+                </li>
+
+                <li>
+                    <svg>
+                        <use href="assets/svg/sprite.svg#rhd"></use>
+                    </svg>Ремонт жестких дисков
+                </li>
+
+                <li>
+                    <svg>
+                        <use href="assets/svg/sprite.svg#data-recovery"></use>
+                    </svg>Восстановление данных
+                </li>
+
+                <li>
+                    <svg>
+                        <use href="assets/svg/sprite.svg#bios"></use>
+                    </svg>Прошивка BIOS
+                </li>
+
+                <li>
+                    <svg>
+                        <use href="assets/svg/sprite.svg#rha"></use>
+                    </svg>Ремонт бытовой техники
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section" id="services">
+        <div class="container">
+            <h2 class="section-title">Быстрый выбор услуги</h2>
+            <div class="service-selector">
+                <form class="service-form">
+                    <div class="form-group">
+                        <select>
+                            <option value="">Выберите тип услуги</option>
+                            <option value="1">Ремонт ноутбуков</option>
+                            <option value="2">Ремонт компьютеров</option>
+                            <option value="3">Ремонт мониторов</option>
+                            <option value="4">Ремонт моноблоков</option>
+                            <option value="5">Ремонт серверов</option>
+                            <option value="6">Ремонт принтеров и МФУ</option>
+                            <option value="7">Ремонт блоков питания</option>
+                            <option value="8">Ремонт ИБП</option>
+                            <option value="9">Ремонт материнских плат</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select id="manufacturer">
+                            <option value="">Выберите производителя</option>
+                            <option value="1">Производитель 1</option>
+                            <option value="2">Производитель 2</option>
+                            <option value="3">Производитель 3</option>
+                            <option value="4">Производитель 4</option>
+                            <option value="5">Производитель 5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select id="model">
+                            <option value="">Выберите модель</option>
+                            <option value="1">Модель 1</option>
+                            <option value="2">Модель 2</option>
+                            <option value="3">Модель 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select id="repairType">
+                            <option value="">Выберите тип ремонта</option>
+                            <option value="1">Тип ремонта 1</option>
+                            <option value="2">Тип ремонта 2</option>
+                            <option value="3">Тип ремонта 3</option>
+                            <option value="4">Тип ремонта 4</option>
+                            <option value="5">Тип ремонта 5</option>
+                            <option value="6">Тип ремонта 6</option>
+                            <option value="7">Тип ремонта 7</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="submit-btn">Перейти</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contacts">
+        <div class="container">
+            <h2 class="section-title">Контактная информация</h2>
+            <div class="contact-info">
+                <div class="info-left">
+                    <div class="card-info">
+                        <h4>
+                            <svg>
+                                <use href="assets/svg/sprite.svg#phone"></use>
+                            </svg>Телефон
+                        </h4>
+                        <p>+7 (499) 638-37-38</p>
+                    </div>
+
+                    <div class="card-info">
+                        <h4>
+                            <svg>
+                                <use href="assets/svg/sprite.svg#mail"></use>
+                            </svg>Почта
+                        </h4>
+                        <p>sales@repair24.pro</p>
+                    </div>
+
+                    <div class="card-info">
+                        <h4>
+                            <svg>
+                                <use href="assets/svg/sprite.svg#work-time"></use>
+                            </svg>Режим работы
+                        </h4>
+                        <p>Пн-Пт: 9:00 - 18:00</p>
+                    </div>
+
+                    <div class="card-info">
+                        <h4>
+                            <svg>
+                                <use href="assets/svg/sprite.svg#map"></use>
+                            </svg>Адрес
+                        </h4>
+                        <p>Москва, ул. Волгоградский проспект д. 28 стр. 1, офис 117</p>
+                    </div>
+                </div>
+
+                <div class="info-right">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236.17198485078586!2d37.682428551255384!3d55.72619837774252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54ad3918f8721%3A0x2a5efbbb9f00ad2d!2z0JLQvtC70LPQvtCz0YDQsNC00YHQutC40Lkg0L_RgC3Rgi4sIDI4INGBIDEsINCc0L7RgdC60LLQsCwgMTA5MzE2!5e0!3m2!1sru!2sru!4v1755176036948!5m2!1sru!2sru"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="mobile-block" class="mobile-block">
+        <div class="mobile-block__inner">
+            <img src="assets/img/logo.png" alt="Логотип" class="mobile-block__logo">
+            <h2>Сайт временно недоступен на мобильных устройствах</h2>
+            <p>Пожалуйста, откройте сайт с персонального компьютера.</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <img src="assets/img/logo.png">
+                    <p>© 2011-2025 АО НИЦЭП<br>Все права защищены</p>
+                </div>
+
+                <nav class="footer__nav">
+                    <h4>Карта сайта</h4>
+                    <ul>
+                        <li><a href="#about">О компании</a></li>
+                        <li><a href="#vacancies">Вакансии</a></li>
+                        <li><a href="#delivery">Доставка</a></li>
+                        <li><a href="#payment">Оплата</a></li>
+                        <li><a href="#news">Новости</a></li>
+                        <li><a href="#partners">Партнерская сеть</a></li>
+                        <li><a href="#business">Обслуживание бизнеса</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="footer__nav">
+                    <h4>Полезности</h4>
+                    <ul>
+                        <li><a href="">Заявка на ремонт</a></li>
+                        <li><a href="">Доставка в сервис</a></li>
+                        <li><a href="">Способы оплаты</a></li>
+                        <li><a href="">Гарантия</a></li>
+                        <li><a href="">Доп. информация</a></li>
+                    </ul>
+                </nav>
+
+                <div class="footer__social">
+                    <h4>Наши соцсети</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="VK">
+                            <svg>
+                                <use href="assets/svg/sprite.svg#vk"></use>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="OK">
+                            <svg>
+                                <use href="assets/svg/sprite.svg#ok"></use>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="TG">
+                            <svg>
+                                <use href="assets/svg/sprite.svg#tg"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__subscribe">
+                    <h4>Подписка на новости</h4>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Ваш e-mail" required />
+                        <button type="submit">Подписаться</button>
+                    </form>
+                    <p>Для тех, кто хочет быть в курсе наших новостей и акций</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <object type="image/svg+xml" data="assets/svg/sprite.svg" style="display:none;"></object>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

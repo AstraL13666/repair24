@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+  <symbol id="account" viewBox="0 0 24 24" fill="inherit">
+    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0"/><path d="M9 10a3 3 0 1 0 6 0a3 3 0 1 0-6 0m-2.832 8.849A4 4 0 0 1 10 16h4a4 4 0 0 1 3.834 2.855"/></g>
+  </symbol>
+
+  <symbol id="theme-sun" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 1 0-5.656-5.656a4 4 0 0 0 5.656 5.656zm-8.485 2.829l-1.414 1.414M6.343 6.343L4.929 4.929m12.728 1.414l1.414-1.414m-1.414 12.728l1.414 1.414M4 12H2m10-8V2m8 10h2m-10 8v2"/>
+  </symbol>
+
+  <symbol id="theme-moon" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z"/>
+  </symbol>
+
+
+
+  <symbol id="incoming-call" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2m10 5l5-5m-5 1v4h4" />
+  </symbol>
+
+  <symbol id="work-time" viewBox="0 0 24 24" fill="inherit">
+    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"> <path d="M3 12a9 9 0 0 0 9 9m9-9a9 9 0 1 0-18 0" /> <path d="M12 7v5l.5.5M18 15h2a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1h-1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h2m-6 0v-6" /></g>
+  </symbol>
+
+  <symbol id="map" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18.5L9 17l-6 3V7l6-3l6 3l6-3v7M9 4v13m6-10v5m6.121 8.121a3 3 0 1 0-4.242 0c.418.419 1.125 1.045 2.121 1.879c1.051-.89 1.759-1.516 2.121-1.879zM19 18v.01" />
+  </symbol>
+
+
+
+  <symbol id="catalog" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75a1.875 1.875 0 0 1 0 3.75H5.625a1.875 1.875 0 0 1 0-3.75Z" />
+  </symbol>
+
+  <symbol id="rss" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 19a1 1 0 1 0 2 0a1 1 0 1 0-2 0M4 4a16 16 0 0 1 16 16M4 11a9 9 0 0 1 9 9" />
+  </symbol>
+
+  <symbol id="notebook" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 19h18M5 7a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z" />
+  </symbol>
+
+  <symbol id="mono-block" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4zm0 9h18M8 21h8m-6-4l-.5 4m4.5-4l.5 4" />
+  </symbol>
+
+  <symbol id="video-card" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm0 9a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm10-9a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2zm0 11a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2z" />
+  </symbol>
+
+  <symbol id="controller" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm.6 13.4L19.4 4.6M7 9h4M9 7v4m4 5h4" />
+  </symbol>
+
+  <symbol id="motherboard" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 4h1a2 2 0 0 1 2 2v1m0 10v1a2 2 0 0 1-2 2h-1M7 20H6a2 2 0 0 1-2-2v-1M4 7V6a2 2 0 0 1 2-2h1m2 8a3 3 0 1 0 6 0a3 3 0 1 0-6 0m3 6v2m-8-8h2m6-8v2m8 6h-2" />
+  </symbol>
+
+  <symbol id="monitor" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5zm4 15h10m-8-4v4m6-4v4" />
+  </symbol>
+
+  <symbol id="network-equipment" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20.777a8.942 8.942 0 0 1-2.48-.969M14 3.223a9.003 9.003 0 0 1 0 17.554m-9.421-3.684a8.961 8.961 0 0 1-1.227-2.592M3.124 10.5c.16-.95.468-1.85.9-2.675l.169-.305m2.714-2.941A8.954 8.954 0 0 1 10 3.223M12 9l-2 3h4l-2 3" />
+  </symbol>
+
+  <symbol id="ibp" viewBox="0 0 24 24" fill="inherit">
+    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z" /><circle cx="9" cy="12" r=".5" fill="currentColor" /><circle cx="15" cy="12" r=".5" fill="currentColor" /></g>
+  </symbol>
+
+  <symbol id="power-unit" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M22 12h-5M2 9h5m-5 6h5M9 5c6 0 8 3.5 8 7s-2 7-8 7H7V5h2z" />
+  </symbol>
+
+  <symbol id="stab" viewBox="0 0 24 24" fill="inherit">
+    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="m12 17l-2 2l2 2" /><path d="M10 19h9a2 2 0 0 0 1.75-2.75l-.55-1M8.536 11l-.732-2.732L5.072 9" /><path d="m7.804 8.268l-4.5 7.794a2 2 0 0 0 1.506 2.89l1.141.024M15.464 11l2.732.732L18.928 9" /><path d="m18.196 11.732l-4.5-7.794a2 2 0 0 0-3.256-.14l-.591.976" /></g>
+  </symbol>
+
+  <symbol id="radio-station" viewBox="0 0 24 24" fill="inherit">
+    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0" /><path d="M15.51 15.56A5 5 0 1 0 12 17" /><path d="M18.832 17.86A9 9 0 1 0 12 21m0-9v9" /></g>
+  </symbol>
+
+  <symbol id="printer" viewBox="0 0 24 24" fill="inherit">
+    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M17 17h2a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h2m10-8V5a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v4" /><path d="M7 15a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2z" /></g>
+  </symbol>
+
+  <symbol id="data-recovery" viewBox="0 0 24 24" fill="inherit">
+    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M4 6c0 1.657 3.582 3 8 3s8-1.343 8-3s-3.582-3-8-3s-8 1.343-8 3" /><path d="M4 6v6c0 1.657 3.582 3 8 3c.361 0 .716-.009 1.065-.026M20 13V6" /><path d="M4 12v6c0 1.657 3.582 3 8 3m4 1l5-5m0 4.5V17h-4.5" /></g>
+  </symbol>
+
+  <symbol id="e-man" viewBox="0 0 24 24" fill="inherit">
+    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="m7 16.5l-5-3l5-3l5 3V19l-5 3z" /><path d="M2 13.5V19l5 3m0-5.455l5-3.03m5 2.985l-5-3l5-3l5 3V19l-5 3zM12 19l5 3m0-5.5l5-3m-10 0V8L7 5l5-3l5 3v5.5M7 5.03v5.455M12 8l5-3" /></g>
+  </symbol>
+
+  <symbol id="pc" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h6v14H3zm9 4h10v7H12zm2 10h6m-3-3v3M6 13v.01M6 16v.01" />
+  </symbol>
+
+  <symbol id="server" viewBox="0 0 24 24" fill="inherit">
+    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M4 6c0 1.657 3.582 3 8 3s8-1.343 8-3s-3.582-3-8-3s-8 1.343-8 3" /><path d="M4 6v6c0 1.657 3.582 3 8 3c.21 0 .42-.003.626-.01M20 11.5V6" /><path d="M4 12v6c0 1.657 3.582 3 8 3m5.001-2a2 2 0 1 0 4 0a2 2 0 1 0-4 0m2-3.5V17m0 4v1.5m3.031-5.25l-1.299.75m-3.463 2l-1.3.75m0-3.5l1.3.75m3.463 2l1.3.75" /></g>
+  </symbol>
+
+  <symbol id="rie" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 4a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1zM3 14h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v12" />
+  </symbol>
+
+  <symbol id="rhd" viewBox="0 0 24 24" fill="inherit">
+    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M5 5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z" /><path d="M9 14a3 3 0 1 0 6 0a3 3 0 1 0-6 0m3-7v.01" /></g>
+  </symbol>
+
+  <symbol id="bios" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5zm18 4H3m12-6L9 9m.5-6l-6 6M20 3.5L14.5 9" />
+  </symbol>
+
+  <symbol id="rha" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4h6v6H4zm10 0h6v6h-6zM4 14h6v6H4zm10 3a3 3 0 1 0 6 0a3 3 0 1 0-6 0" />
+  </symbol>
+
+
+
+  <symbol id="arrow-left" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12l6 6m-6-6l6-6" />
+  </symbol>
+
+  <symbol id="arrow-right" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-6 6l6-6m-6-6l6 6" />
+  </symbol>
+
+
+
+  <symbol id="shield" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3" />
+  </symbol>
+  
+  <symbol id="rub" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 19V5h6a3 3 0 0 1 0 6H6m8 4H6" />
+  </symbol>
+
+  <symbol id="map-1" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934a1.12 1.12 0 0 1-1.006 0L9.503 3.252a1.125 1.125 0 0 0-1.006 0L3.622 5.689A1.125 1.125 0 0 0 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934a1.12 1.12 0 0 1 1.006 0l4.994 2.497c.317.158.69.158 1.006 0Z" />
+  </symbol>
+
+  <symbol id="web" viewBox="0 0 24 24" fill="inherit">
+    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M3 19a2 2 0 1 0 4 0a2 2 0 1 0-4 0m14 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0" /><path d="M6.5 17.5L12 13l5.5 4.5M12 7v6" /></g>
+  </symbol>
+
+
+
+  <symbol id="phone" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/>
+  </symbol>
+
+  <symbol id="mail" viewBox="0 0 24 24" fill="inherit">
+    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z"/><path d="m3 7l9 6l9-6"/></g>
+  </symbol>
+
+  <symbol id="" viewBox="0 0 24 24" fill="inherit">
+  </symbol>
+
+  <symbol id="" viewBox="0 0 24 24" fill="inherit">
+  </symbol>
+
+
+
+  <symbol id="vk" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 19h-4a8 8 0 0 1-8-8V6h4v5a4 4 0 0 0 4 4h0V6h4v4.5h.03A4.531 4.531 0 0 0 18 6.004h4l-.342 1.711A6.858 6.858 0 0 1 18 12.504h0a5.34 5.34 0 0 1 3.566 4.111L22 19.004h0h-4a4.531 4.531 0 0 0-3.97-4.496v4.5z" />
+  </symbol>
+
+  <symbol id="ok" viewBox="0 0 24 24" fill="inherit">
+    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 9a2 2 0 1 0 4 0a2 2 0 1 0-4 0" /><path d="M20 12c0 8 0 8-8 8s-8 0-8-8s0-8 8-8s8 0 8 8z" /><path d="M9.5 13c1.333.667 3.667.667 5 0m-5 4l2.5-3l2.5 3M12 13.5v.5" /></g>
+  </symbol>
+
+  <symbol id="tg" viewBox="0 0 24 24" fill="inherit">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m15 10l-4 4l6 6l4-16l-18 7l4 2l2 6l3-4" />
+  </symbol>
+</svg>
